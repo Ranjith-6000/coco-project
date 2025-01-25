@@ -8,9 +8,9 @@ import {
 } from "@material-tailwind/react";
 
 const imgs = [
-  "https://www.material-tailwind.com/image/web3-card-1.svg",
-  "https://www.material-tailwind.com/image/web3-card-2.svg",
-  "https://www.material-tailwind.com/image/web3-card-3.svg",
+  "https://i.ytimg.com/vi/wgLXImNDoTc/maxresdefault.jpg",
+  "https://i.ytimg.com/vi/0C-hyqtV1XI/maxresdefault.jpg",
+  "https://i.ytimg.com/vi/1cVvQswuWp4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBmSwwdgzuNu7fE-T67dVYK1EXwDQ",
 ];
 
 export function CryptoCard() {
