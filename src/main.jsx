@@ -3,7 +3,8 @@ import { createRoot } from "react-dom/client";
 import App from "./App.jsx";
 import "./tailwindcss.css";
 
-createRoot(document.getElementById("root")).render(
+// we are creating the virual dom element here...!
+createRoot(document.getElementById("actual-dom-element")).render(
   <StrictMode>
     <App />
   </StrictMode>
