@@ -3,7 +3,7 @@ import { Input, Typography } from "@material-tailwind/react";
 export const CustomInput = ({ labelName, placeHolderName }) => {
   return (
     <>
-      <div className="flex w-72 flex-col py-1">
+      <div className="flex w-full flex-col py-1">
         {/* This typography is my Label */}
         <Typography variant="h6" className="p-0 m-0">
           {labelName}

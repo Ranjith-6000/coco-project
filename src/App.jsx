@@ -2,5 +2,11 @@
 import RenderLoginScreen from "./screens/login-screen";
 
 export default function App() {
-  return <RenderLoginScreen />;
+  return (
+    <>
+      <div className="">
+        <RenderLoginScreen />;
+      </div>
+    </>
+  );
 }
