@@ -7,10 +7,11 @@ import {
   Typography,
 } from "@material-tailwind/react";
 
-const imgs = [
+const myImages = [
   "https://i.ytimg.com/vi/wgLXImNDoTc/maxresdefault.jpg",
   "https://i.ytimg.com/vi/0C-hyqtV1XI/maxresdefault.jpg",
   "https://i.ytimg.com/vi/1cVvQswuWp4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBmSwwdgzuNu7fE-T67dVYK1EXwDQ",
+  "https://content.jdmagicbox.com/comp/ongole/y5/9999p8592.8592.200207200030.h9y5/catalogue/coco-hub-ongole-pwtacpnvjg.jpg",
 ];
 
 export function CryptoCard() {
@@ -43,14 +44,19 @@ export function CryptoCard() {
           </Button>
         </div>
         <div className="grid grid-cols-3 gap-2">
-          {imgs.map((img, key) => (
-            <img
-              key={key}
-              src={img}
-              className="h-full w-full rounded-xl object-cover"
-              alt="imgs"
-            />
-          ))}
+          {myImages.map(
+            (x, y) => (
+              console.log("What is in the map?", "Key:", y, "img:", x),
+              (
+                <img
+                  key={y}
+                  src={x}
+                  className="h-full w-full rounded-xl object-cover"
+                  alt="imgs"
+                />
+              )
+            )
+          )}
         </div>
       </CardBody>
     </Card>
