@@ -1,5 +1,5 @@
-import { Button } from "@material-tailwind/react";
+import CryptoCard from "./components/CryptoCard";
 
 export default function App() {
-  return <Button>Button</Button>;
+  return <CryptoCard />;
 }
